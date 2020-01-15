@@ -1,0 +1,181 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    background-color: #252A2E;
+    color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.search {
+    height: 4vh;
+    margin: 2vh;    
+    border-radius: 3px;
+    background-color: #46494D;
+    color: #8E9093;
+    border: none;
+    font-size: 15px;
+    text-indent: 7px;
+}
+
+.searchButton {
+    height: 3vh;
+    margin: 2vh;    
+    border-radius: 3px;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li {
+    display: flex;
+    align-items: center;
+}
+
+.container a {
+    color: White;
+    text-decoration: none;
+    padding: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.col1 {
+    display: flex;
+    width: 25vw;
+    max-width: 270px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.col2 {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    max-width: 1000px;
+    position: relative;
+}
+
+#profPic {
+    margin: 25px;
+    width: 250px;
+    height: 250px;
+    border: 1px grey;
+
+}
+
+#userName {
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: grey;
+    max-height: 40px;
+}
+
+#editBtn {
+    flex-wrap: wrap;
+    margin: 15px;
+    width: 250px;
+    max-height: 30px;
+    border-radius: 5px;
+    background-color: #F4F6F8;
+    font-weight: 500;
+}
+
+.col2 div ul li {
+    padding: 8px;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+}
+
+.cardItem {
+    border: 1px solid rgba(230, 221, 221, 0.925);
+    border-radius: 4px;
+    width: 40%;
+    max-width: 250px;
+    height: 20vh;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.header1 {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.col2 div ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkText {
+    margin-left: 25px;
+    padding-top: 25px;
+    margin-top: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cardItem a {
+    text-decoration: none;
+    color: blue;
+}
+
+.otherText {
+    margin-left: 25px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: x-small;
+}
+
+.circ {
+    color: red;
+    font-size: 20px;
+}
+
+#repoPic {
+    width: 800px;
+    align-self: center;
+}
+
+#logoPic {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+#buttonEdit {
+    margin: 15px;
+    width: 800px;
+    max-height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 500;
+    color: #0800FF;
+}
